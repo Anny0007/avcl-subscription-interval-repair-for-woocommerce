@@ -1,0 +1,178 @@
+/**
+ * AVCL Subscription Interval Repair — Admin CSS
+ *
+ * Follows WordPress admin design conventions:
+ * - Uses WP core colour variables where possible.
+ * - No !important overrides of WP core rules.
+ * - All selectors scoped under .wcsr-wrap.
+ */
+
+/* ── Layout ─────────────────────────────────────────────────────────────── */
+
+.wcsr-wrap {
+	max-width: 1200px;
+}
+
+.wcsr-page-title {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 16px;
+}
+
+.wcsr-icon {
+	font-size: 1.3em;
+	line-height: 1;
+}
+
+/* ── Stat cards ──────────────────────────────────────────────────────────── */
+
+.wcsr-stat-grid {
+	display: flex;
+	gap: 16px;
+	flex-wrap: wrap;
+	margin-bottom: 24px;
+}
+
+.wcsr-stat-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 3px;
+	padding: 16px 24px;
+	min-width: 160px;
+	text-align: center;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.wcsr-stat-card--warning {
+	border-color: #f0c040;
+	background: #fffbf0;
+}
+
+.wcsr-stat-card--ok {
+	border-color: #68de7c;
+	background: #f0fff4;
+}
+
+.wcsr-stat-number {
+	display: block;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #1d2327;
+}
+
+.wcsr-stat-label {
+	display: block;
+	font-size: 12px;
+	color: #646970;
+	margin-top: 4px;
+}
+
+/* ── Notices ─────────────────────────────────────────────────────────────── */
+
+.wcsr-notice {
+	padding: 10px 14px;
+	border-radius: 3px;
+	margin-bottom: 16px;
+	font-size: 13px;
+}
+
+.wcsr-notice--warning {
+	background: #fff8e5;
+	border: 1px solid #f0c040;
+	border-left: 4px solid #d63638;
+}
+
+.wcsr-notice--success {
+	background: #edfaef;
+	border: 1px solid #68de7c;
+	border-left: 4px solid #00a32a;
+}
+
+/* ── Sections ────────────────────────────────────────────────────────────── */
+
+.wcsr-section {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 3px;
+	padding: 20px 24px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.wcsr-section h2 {
+	margin-top: 0;
+}
+
+.wcsr-action-row {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	flex-wrap: wrap;
+}
+
+.wcsr-status-text {
+	color: #646970;
+	font-size: 13px;
+}
+
+.wcsr-muted {
+	color: #646970;
+}
+
+/* ── Tables ──────────────────────────────────────────────────────────────── */
+
+.wcsr-table {
+	margin-top: 8px;
+}
+
+.wcsr-table th {
+	font-weight: 600;
+}
+
+/* ── Badges ──────────────────────────────────────────────────────────────── */
+
+.wcsr-badge {
+	display: inline-block;
+	padding: 2px 8px;
+	border-radius: 10px;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: .4px;
+}
+
+.wcsr-badge--fixed    { background: #edfaef; color: #00a32a; }
+.wcsr-badge--skipped  { background: #f0f6fc; color: #2271b1; }
+.wcsr-badge--failed   { background: #fef0f0; color: #d63638; }
+.wcsr-badge--pending  { background: #fff8e5; color: #996800; }
+
+/* ── Inline repair result row states ─────────────────────────────────────── */
+
+.wcsr-row-fixed   { background: #edfaef; }
+.wcsr-row-failed  { background: #fef0f0; }
+.wcsr-row-dry     { background: #f0f6fc; }
+
+/* ── Free vs Pro page ────────────────────────────────────────────────────── */
+
+.wcsr-upgrade-table .wcsr-check {
+	color: #00a32a;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.wcsr-upgrade-table .wcsr-dash {
+	color: #c3c4c7;
+	font-weight: 400;
+}
+
+/* ── AutomateWoo warning row in results table ────────────────────────────── */
+
+.wcsr-row-aw-warning td {
+	background: #fff8e5;
+	border-left: 3px solid #dba617;
+	color: #5a4000;
+	font-size: 12px;
+	padding: 4px 8px;
+}

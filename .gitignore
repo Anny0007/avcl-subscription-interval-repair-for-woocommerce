@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+__MACOSX
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node / Build tools
+node_modules/
+vendor/
+*.log
+
+# WordPress
+wp-config.php
