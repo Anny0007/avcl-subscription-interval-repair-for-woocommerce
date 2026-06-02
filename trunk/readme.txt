@@ -36,32 +36,26 @@ It scans your entire subscriptions table, detects mismatches by comparing the su
 
 Every feature listed above is fully unlocked in this download. There are no license keys, no trial periods, no quotas, and no premium-only code paths. The plugin is GPLv2.
 
-= 🚀 Unlock More Power with the Pro Version =
+= Upgrade to Pro =
 
-For stores that need to **change prices on existing subscriptions in bulk** or want power-user controls, we offer a separate Premium edition. It is a completely separate plugin distributed off WordPress.org. 
+For stores that need to **change prices on existing subscriptions in bulk** or want power-user controls, we offer a separate Premium edition. It is a completely separate plugin distributed off WordPress.org.
 
 [Upgrade to AVCL Subscription Repair Pro Today!](https://checkout.freemius.com/plugin/28459/plan/46881/)
 
-**Premium Features Include:**
-* **Bulk price update by product:** Update existing subscribers when you change a product price.
-* **Bulk price update by variation (per-variation pricing):** Set a different price for each variable subscription tier.
+**Premium features include:**
+
+* **Bulk price update by product** — Update existing subscribers when you change a product price.
+* **Bulk price update by variation** — Set a different price for each variable subscription tier.
 * **Bulk price update by CSV paste**
-* **Tax-safe price update (avoids double-VAT bug):** Derives the tax rate from existing subscription data; never calls `calculate_totals()`.
+* **Tax-safe price update** — Derives the tax rate from existing subscription data; never calls `calculate_totals()`.
 * **Optional customer email notification** after a price update.
-* **Fix Next Payment Dates page:** A standalone tool.
-* **Manual Trigger panel:** Activate/pause/cancel/expire, renewal-order creation, and recalculate_totals tax test.
-* **Prepay Tools:** Restore prepay intervals and fix prepay next-payment dates.
+* **Fix Next Payment Dates** — A standalone tool.
+* **Manual Trigger panel** — Activate, pause, cancel, expire, create renewal orders, and run a recalculate_totals tax test.
+* **Prepay Tools** — Restore prepay intervals and fix prepay next-payment dates.
 * **Schedule Renewals tool**
 * **Priority email support**
 
-[Click here to view all Pro features and pricing](https://checkout.freemius.com/plugin/28459/plan/46881/)
-
-= Requirements =
-
-* WordPress 6.3+
-* WooCommerce 9.0+
-* WooCommerce Subscriptions 5.0+
-* PHP 8.0+
+[View all Pro features and pricing](https://checkout.freemius.com/plugin/28459/plan/46881/)
 
 == Installation ==
 
@@ -107,7 +101,7 @@ It iterates the list of broken subscriptions from the most recent scan and calls
 
 The Pro plugin is a separate plugin (not hosted on WordPress.org) that adds bulk subscription **price updating** by product / variation / CSV, a tax-safe price-split engine, a manual trigger panel, prepay tools, and a scheduled-renewal helper. The free plugin you are reading about here is complete on its own; Pro is only worth considering if you need those specific extras.
 
-= Will the free and Pro plugins conflict if I run both? =
+= Will the free and Pro plugins conflict if both are active? =
 
 No. The free plugin automatically detects when the Pro edition is active and stands down its admin UI and AJAX handlers so menus and hooks do not collide. You can safely deactivate the free plugin once Pro is active.
 
@@ -124,8 +118,8 @@ No. The free plugin automatically detects when the Pro edition is active and sta
 = 1.2.0 =
 * New: "Free vs Pro" comparison page on its own submenu — purely informational, describes optional features available in a separate paid plugin. No code in the free plugin is locked or gated.
 * New: Compatibility detection — if the paid edition is active, the free plugin stands down its menus and AJAX handlers automatically so the two do not collide.
-* New: `AVCL_WCSR_PRO_URL` constant (filterable by adjusting the value) for the upgrade page CTA.
-* New: `avcl_wcsr_show_upgrade_page` filter to hide the Free vs Pro submenu entirely if a site owner prefers.
+* New: `AVCL_WCSR_PRO_URL` constant (filterable) for the upgrade page CTA.
+* New: `avcl_wcsr_show_upgrade_page` filter to hide the Free vs Pro submenu entirely if preferred.
 * Compliance: Explicit confirmation in code comments and readme that all features are unlocked and unrestricted; no license checks, no quotas, no trial period.
 
 = 1.1.0 =
@@ -134,12 +128,12 @@ No. The free plugin automatically detects when the Pro edition is active and sta
 * New: Audit log "Export CSV" button.
 * New: Audit log "Clear Log" button.
 * New: `Requires Plugins: woocommerce` header so WordPress blocks activation when WooCommerce is missing.
-* Changed: Plugin renamed to "AVCL Subscription Interval Repair for WooCommerce" and reslugged to `avcl-subscription-interval-repair-for-woocommerce` per WordPress.org guidelines. Text domain, constants, function/class names, AJAX action names, menu slugs, options, and the audit log table name have all been re-prefixed.
+* Changed: Plugin renamed to "AVCL Subscription Interval Repair for WooCommerce" and reslugged to `avcl-subscription-interval-repair-for-woocommerce` per WordPress.org guidelines.
 * Changed: Text domain loading now uses the standard `init` hook with `load_plugin_textdomain()`.
 * Removed: All upsell UI and references to a separate paid edition.
 
 = 1.0.1 =
-* Fixed: Resolved Plugin Check (PCP) warning for unescaped DB parameter in audit log query — all queries now use fully parameterised `$wpdb->prepare()` calls with no dynamic SQL string assembly.
+* Fixed: Resolved Plugin Check (PCP) warning for unescaped DB parameter in audit log query.
 * Fixed: "Tested up to" updated to WordPress 6.9.
 * Improved: Admin notice for missing WooCommerce Subscriptions now uses proper escaped output.
 
