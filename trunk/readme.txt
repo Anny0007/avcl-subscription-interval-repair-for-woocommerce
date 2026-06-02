@@ -6,7 +6,7 @@ Tested up to:      7.0
 Stable tag:        1.2.0
 Requires PHP:      8.0
 License:           GPLv2 or later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+License URI:       https://www.gnu.org/licenses/gpl-2.0.html 
 
 Detects and repairs broken billing intervals on WooCommerce Subscriptions — single or bulk — with a safe dry-run preview and a full audit log.
 
