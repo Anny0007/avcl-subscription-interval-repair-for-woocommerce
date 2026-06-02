@@ -3,7 +3,7 @@ Contributors:      ankitv
 Tags:              subscriptions, billing interval, woocommerce, repair, subscription fix
 Requires at least: 6.3
 Tested up to:      7.0
-Stable tag:        1.2.0
+Stable tag:        1.2.1
 Requires PHP:      8.0
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html 
@@ -114,6 +114,9 @@ No. The free plugin automatically detects when the Pro edition is active and sta
 5. Free vs Pro — informational comparison page.
 
 == Changelog ==
+
+= 1.2.1 =
+* Fix: Corrected character encoding in uninstall.php comments to resolve SVN sync issue.
 
 = 1.2.0 =
 * New: "Free vs Pro" comparison page on its own submenu — purely informational, describes optional features available in a separate paid plugin. No code in the free plugin is locked or gated.
