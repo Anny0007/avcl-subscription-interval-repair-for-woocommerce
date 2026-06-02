@@ -40,7 +40,7 @@ Every feature listed above is fully unlocked in this download. There are no lice
 
 For stores that need to **change prices on existing subscriptions in bulk** or want power-user controls, we offer a separate Premium edition. It is a completely separate plugin distributed off WordPress.org. 
 
-[Upgrade to AVCL Subscription Repair Pro Today!](https://checkout.freemius.com/plugin/28459/plan/46881/)
+[Upgrade to AVCL Subscription Repair Pro Today!](https://checkout.freemius.com/plugin/28459/plan/46881/)  
 
 **Premium Features Include:**
 * **Bulk price update by product:** Update existing subscribers when you change a product price.
@@ -54,7 +54,7 @@ For stores that need to **change prices on existing subscriptions in bulk** or w
 * **Schedule Renewals tool**
 * **Priority email support**
 
-[Click here to view all Pro features and pricing](https://checkout.freemius.com/plugin/28459/plan/46881/)
+[Click here to view all Pro features and pricing](https://checkout.freemius.com/plugin/28459/plan/46881/). 
 
 = Requirements =
 
