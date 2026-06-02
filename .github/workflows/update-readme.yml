@@ -3,9 +3,9 @@ name: Update Readme on WordPress.org
 on:
   push:
     branches:
-      - main        # change to "master" if that's your default branch
+      - main
     paths:
-      - 'trunk/readme.txt'   # only runs when readme.txt actually changes
+      - 'trunk/readme.txt'
 
 jobs:
   readme:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Update readme and assets on WordPress.org
         uses: 10up/action-wordpress-plugin-asset-update@stable
