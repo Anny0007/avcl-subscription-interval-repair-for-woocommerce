@@ -36,9 +36,25 @@ It scans your entire subscriptions table, detects mismatches by comparing the su
 
 Every feature listed above is fully unlocked in this download. There are no license keys, no trial periods, no quotas, and no premium-only code paths. The plugin is GPLv2.
 
-= Optional Pro edition (separate, off-WordPress.org) =
+= 🚀 Unlock More Power with the Pro Version =
 
-For stores that also need to **change prices on existing subscriptions in bulk** (by product, by variation, or by CSV), or want power-user controls like a manual trigger panel, prepay-tools page, or scheduled-renewal helpers, there is an optional paid edition. It is a completely separate plugin distributed off WordPress.org. It is **not required** for this free plugin to work. You can compare features on the "Sub Repair → Free vs Pro" admin page.
+For stores that need to **change prices on existing subscriptions in bulk** or want power-user controls, we offer a separate Premium edition. It is a completely separate plugin distributed off WordPress.org. 
+
+[Upgrade to AVCL Subscription Repair Pro Today!](https://checkout.freemius.com/plugin/28459/plan/46881/)
+
+**Premium Features Include:**
+* **Bulk price update by product:** Update existing subscribers when you change a product price.
+* **Bulk price update by variation (per-variation pricing):** Set a different price for each variable subscription tier.
+* **Bulk price update by CSV paste**
+* **Tax-safe price update (avoids double-VAT bug):** Derives the tax rate from existing subscription data; never calls `calculate_totals()`.
+* **Optional customer email notification** after a price update.
+* **Fix Next Payment Dates page:** A standalone tool.
+* **Manual Trigger panel:** Activate/pause/cancel/expire, renewal-order creation, and recalculate_totals tax test.
+* **Prepay Tools:** Restore prepay intervals and fix prepay next-payment dates.
+* **Schedule Renewals tool**
+* **Priority email support**
+
+[Click here to view all Pro features and pricing](https://checkout.freemius.com/plugin/28459/plan/46881/)
 
 = Requirements =
 
