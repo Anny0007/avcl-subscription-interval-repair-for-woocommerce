@@ -3,7 +3,7 @@
  * Plugin Name:       AVCL Subscription Interval Repair for WooCommerce
  * Plugin URI:        https://wordpress.org/plugins/avcl-subscription-interval-repair-for-woocommerce/
  * Description:       Scans WooCommerce Subscriptions for broken billing intervals and repairs them — one at a time or all at once — with a safe dry-run preview and full audit log.
- * Version:           1.2.0
+ * Version:           1.2.1
  * Author:            Ankit Vishwakarma
  * Author URI:        https://profiles.wordpress.org/ankitv/
  * License:           GPL-2.0-or-later
@@ -24,7 +24,7 @@ defined( 'ABSPATH' ) || exit;
 
 // ── Constants ─────────────────────────────────────────────────────────────────
 
-define( 'AVCL_WCSR_VERSION',     '1.2.0' );
+define( 'AVCL_WCSR_VERSION',     '1.2.1' );
 define( 'AVCL_WCSR_PLUGIN_DIR',  plugin_dir_path( __FILE__ ) );
 define( 'AVCL_WCSR_PLUGIN_URL',  plugin_dir_url( __FILE__ ) );
 define( 'AVCL_WCSR_PLUGIN_FILE', __FILE__ );
