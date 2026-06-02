@@ -3,11 +3,11 @@
  * Uninstall handler for AVCL Subscription Interval Repair for WooCommerce.
  *
  * WordPress.org guidelines require plugins to clean up their own data when
- * deleted via Plugins → Delete (not just deactivated).
+ * deleted via Plugins -> Delete (not just deactivated).
  *
  * Removes:
- *   • The avcl_wcsr_audit_log custom database table.
- *   • The avcl_wcsr_db_version option.
+ *   - The avcl_wcsr_audit_log custom database table.
+ *   - The avcl_wcsr_db_version option.
  *
  * @package AVCL_SubscriptionIntervalRepair
  * @see https://developer.wordpress.org/plugins/plugin-basics/uninstall-methods/
